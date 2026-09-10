@@ -21,11 +21,11 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
 
   const offers = [
     {
-      company: 'الصقر للتأمين', logo: '/index_files/Sagr.svg', price: '277.41', rating: 4,
+      company: 'الصقر للتأمين', logo: '/index_files/Sagr.svg', price: '127.41', rating: 4,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'الخليجية العامة', logo: '/index_files/GGI.svg', price: '450.74', rating: 3,
+      company: 'الخليجية العامة', logo: '/index_files/GGI.svg', price: '300.74', rating: 3,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '40 ريال'},
@@ -34,15 +34,15 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'إتحاد الخليج للتأمين التعاوني ', logo: '/index_files/GulfUnion.svg', price: '450.65', rating: 5,
+      company: 'إتحاد الخليج للتأمين التعاوني ', logo: '/index_files/GulfUnion.svg', price: '300.65', rating: 5,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'ليفا للتأمين', logo: '/index_files/Alalamiya.svg', price: '521.30', rating: 4,
+      company: 'ليفا للتأمين', logo: '/index_files/Alalamiya.svg', price: '371.30', rating: 4,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'العربية للتأمين', logo: '/index_files/AICC.svg', price: '551.79', rating: 5,
+      company: 'العربية للتأمين', logo: '/index_files/AICC.svg', price: '401.79', rating: 5,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '50 ريال'},
@@ -50,7 +50,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'تكافل الراجحي', logo: '/index_files/AlRajhi.svg', price: '468.70', rating: 4,
+      company: 'تكافل الراجحي', logo: '/index_files/AlRajhi.svg', price: '318.70', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق و الركاب', price: '50 ريال'},
@@ -60,7 +60,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'تكافل الراجحي', logo: '/index_files/AlRajhi.svg', price: '544.70', rating: 3,
+      company: 'تكافل الراجحي', logo: '/index_files/AlRajhi.svg', price: '394.70', rating: 3,
       features: [
         {text: 'مسؤلية الطرف الثالث', price: 'مشمول'},
         {text: 'إعفاء من نسبة استهلاك قطع الغيار', price: 'مشمول'},
@@ -69,7 +69,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'المتحدة للتأمين التعاوني', logo: '/index_files/UCA.svg', price: '510.52', rating: 5,
+      company: 'المتحدة للتأمين التعاوني', logo: '/index_files/UCA.svg', price: '360.52', rating: 5,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'المساعدة على الطريق', price: 'مشمول'},
@@ -78,22 +78,22 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'ولاء', logo: '/index_files/Walaa.svg', price: '573.93', rating: 4,
+      company: 'ولاء', logo: '/index_files/Walaa.svg', price: '423.93', rating: 4,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'ميدغلف', logo: '/index_files/MedGulf.svg', price: '498.08', rating: 3,
+      company: 'ميدغلف', logo: '/index_files/MedGulf.svg', price: '348.08', rating: 3,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'الاتحاد', logo: '/index_files/TUIC.svg', price: '433.11', rating: 4,
+      company: 'الاتحاد', logo: '/index_files/TUIC.svg', price: '283.11', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '50 ريال'}
       ]
     },
     {
-      company: 'التعاونية', logo: '/index_files/Tawuniya.svg', price: '510.75', rating: 5,
+      company: 'التعاونية', logo: '/index_files/Tawuniya.svg', price: '360.75', rating: 5,
       features: [
         {text: 'تغطية شاملة حتى 10,000 ريال سعودى', price: 'مشمول'},
         {text: 'الحوادث الشخصية للسائق فقط', price: '60 ريال'},
@@ -101,7 +101,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'التعاونية', logo: '/index_files/Tawuniya.svg', price: '610.75', rating: 4,
+      company: 'التعاونية', logo: '/index_files/Tawuniya.svg', price: '460.75', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'الحوادث الشخصية للسائق فقط', price: '60 ريال'},
@@ -110,7 +110,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'أمانة', logo: '/index_files/Amana.svg', price: '650.73', rating: 3,
+      company: 'أمانة', logo: '/index_files/Amana.svg', price: '500.73', rating: 3,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'الوفاة والإصابة الجسدية والمصاريف الطبية', price: '50 ريال'},
@@ -118,7 +118,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'الدرع العربي للتأمين', logo: '/index_files/ArabianShield.svg', price: '552.50', rating: 4,
+      company: 'الدرع العربي للتأمين', logo: '/index_files/ArabianShield.svg', price: '302.50', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '60 ريال'},
@@ -127,7 +127,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'بروج للتأمين التعاوني', logo: '/index_files/Buruj.svg', price: '512.93', rating: 4,
+      company: 'بروج للتأمين التعاوني', logo: '/index_files/Buruj.svg', price: '362.93', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '70 ريال'},
@@ -135,15 +135,15 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'سلامة للتأمين التعاوني', logo: '/index_files/Salama.svg', price: '430.28', rating: 5,
+      company: 'سلامة للتأمين التعاوني', logo: '/index_files/Salama.svg', price: '280.28', rating: 5,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'اليانز السعودي الفرنسي', logo: '/index_files/Allianz.svg', price: '628.22', rating: 3,
+      company: 'اليانز السعودي الفرنسي', logo: '/index_files/Allianz.svg', price: '478.22', rating: 3,
       features: [{text: 'المسؤولية المدنية تجاه الغير بحد أقصى 10,000,000 ريال', price: 'مشمول'}]
     },
     {
-      company: 'اسيج التأمين', logo: '/index_files/ACIG.svg', price: '509.80', rating: 4,
+      company: 'اسيج التأمين', logo: '/index_files/ACIG.svg', price: '359.80', rating: 4,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'تغطية الحوادث الشخصية للسائق فقط', price: '60 ريال'},
@@ -151,7 +151,7 @@ const ThirdPartyOffers = ({ loading, setLoading }) => {
       ]
     },
     {
-      company: 'GiG', logo: '/index_files/AXA.svg', price: '447.47', rating: 5,
+      company: 'GiG', logo: '/index_files/AXA.svg', price: '297.47', rating: 5,
       features: [
         {text: 'المسؤولية المدنية تجاه الغير', price: 'مشمول'},
         {text: 'الإصابة الجسدية وتلف ممتلكات الغير', price: 'مشمول'},
